@@ -22,7 +22,7 @@ class Login extends React.Component {
   render() {
     return (
       <View style={[styles.container, styles.center]}>
-        <Image style={{width: 300, height: 100}} source={require('../assets/logo.jpg')} />
+        <Image style={{width: 300, height: 100}} source={require('../assets/logo.png')} />
         <TextInput
         	style={styles.border}
         	value={this.props.user.email}
